@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.content{
+    background-color: #0ae99f;
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.logo{
+    position: relative;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    
+}
+.logo span{
+    color: rgb(69, 150, 225);
+}
+
+.navbar a{
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 8px;
+}
+header>nav{
+    margin-left: 75vb;
+}
+.landing{
+    position: fixed;
+    width: 100%;
+    padding: 20px 10%;
+    background: #ffffff57;
+    display: flex;
+    align-items: center;
+    z-index: 100; 
+}
+.landing a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    display: inline-block;
+}
+
+.content h1{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    padding-top: 19%;
+}
+.content p{
+    text-align: center;
+    font-size: 35px;
+    color: #ece9e9;
+    padding-top: 1%;
+}
+.content p>span{
+    color: rgb(69, 150, 225);
+}
+.content button{
+    padding: 15px 15px;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid white;
+    margin-top: 20px;
+    margin-left: 700px;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+.content button:hover{
+    background-color: rgb(69, 150, 225);
+    color: black;
+}
+input[type=search]{
+    padding: 5px;
+}

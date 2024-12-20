@@ -16,7 +16,7 @@
 }
 .logo{
     position: relative;
-    color: black;
+    color: white;
     font-size: 25px;
     text-decoration: none;
     font-weight: 600;
@@ -24,7 +24,7 @@
     
 }
 .logo span{
-    color: rgb(69, 150, 225);
+    color: rgb(17, 52, 86);
 }
 
 .navbar a{
@@ -36,15 +36,15 @@
     margin-left: 10px;
 }
 .navbar a:hover{
-    color: rgb(69, 150, 225);
+    color: rgb(17, 52, 86);
 }
 header>nav{
-    margin-left: 60vb;
+    margin-left: 85vb;
 }
 .landing{
     position: fixed;
     width: 100%;
-    padding: 20px 10%;
+    padding: 15px 12px;
     background: #ffffff57;
     display: flex;
     align-items: center;
